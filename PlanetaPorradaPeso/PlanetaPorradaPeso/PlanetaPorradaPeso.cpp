@@ -80,7 +80,7 @@ int main() {
 
 
 
-
+//mesmo programa com if-else e switch
 
     return 0;
 
