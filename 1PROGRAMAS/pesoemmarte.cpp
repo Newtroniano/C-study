@@ -8,7 +8,7 @@ int main() {
 	double pesonaterra;
 
 
-	cout << "Digite o peso em quilos do item aqui na terra para saber o peso doi objeto em Marte: ";
+	cout << "Digite o peso em quilos do item aqui na terra para saber o peso do objeto em Marte: ";
 	cin >> pesonaterra;
 
 	pesoemmarte = (pesonaterra / 9.81) * 3.711;
