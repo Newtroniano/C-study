@@ -1,17 +1,18 @@
 #include <iostream>
-
+using namespace std;
 int main() {
-	// Add your code below  
+	//escreva seu código abaixo 
+	setlocale(LC_ALL, "pt_BR.UTC-8");
 	
 	double pesoemmarte;
 	double pesonaterra;
 
 
-	std::cout << "Digite o peso em quilos do item aqui na terra: ";
-	std::cin >> pesonaterra;
+	cout << "Digite o peso em quilos do item aqui na terra para saber o peso do objeto em Marte: ";
+	cin >> pesonaterra;
 
 	pesoemmarte = (pesonaterra / 9.81) * 3.711;
 
-	std::cout << "Objeto pesara: " << pesoemmarte << " quilos em marte\n";
+	cout << "Objeto pesará: " << pesoemmarte << " quilos em marte\n";
 
 } 
