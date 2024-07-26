@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Basico">
+      <UniqueIdentifier>{e9671112-5100-4ec2-bcd6-ca40c3088743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Structs">
+      <UniqueIdentifier>{88c89904-975d-48b5-889c-4c06c2f36c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Probabilidade">
+      <UniqueIdentifier>{6d97543c-0350-422f-9149-841d8cc14337}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleApplication1.cpp">
+      <Filter>Arquivos de Origem\Basico</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Arquivos de Origem\Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="Carros.cpp">
+      <Filter>Arquivos de Origem\Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Arquivos de Origem\Probabilidade</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pinto.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Users.h">
+      <Filter>Arquivos de Origem\Probabilidade</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
